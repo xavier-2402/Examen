@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/ic_person_outline_black_24dp" />
+
+    <TextView
+        android:id="@+id/txtNombre_Comercial"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtRepresentante"
+        android:layout_width="273dp"
+        android:layout_height="29dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtDireccion"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtProducto"
+        android:layout_width="272dp"
+        android:layout_height="32dp"
+        android:text="TextView" />
+
+</LinearLayout>
